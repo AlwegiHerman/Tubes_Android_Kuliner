@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alwegi.kuliner">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity_home" />
+        <activity android:name=".activity_login" />
+        <activity android:name=".activity_register" />
+        <activity android:name=".detail.detail_acigaluh" />
+        <activity android:name=".detail.detail_cairo" />
+        <activity android:name=".maps.maps_cairo" />
+        <activity android:name=".maps.maps_galuh" />
+        <activity android:name=".detail.detail_ceker" />
+        <activity android:name=".maps.maps_ceker" />
+        <activity android:name=".detail.detail_hoklay" />
+        <activity android:name=".maps.maps_hoklay" />
+        <activity android:name=".detail.detail_ketan" />
+        <activity android:name=".maps.maps_ketan" />
+        <activity android:name=".detail.detail_pecel" />
+        <activity android:name=".maps.maps_pecel" />
+        <activity android:name=".detail.detail_ronde" />
+        <activity android:name=".maps.maps_ronde" />
+        <activity android:name=".detail.detail_sate" />
+        <activity android:name=".maps.maps_sate" />
+        <activity android:name=".detail.detail_stmj" />
+        <activity android:name=".maps.maps_stmj" />
+    </application>
+
+</manifest>
